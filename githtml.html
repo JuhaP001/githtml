@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Perusteet ja Keskeiset Komennot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Git Perusteet ja Keskeiset Komennot</h1>
+    <p>Git on hajautettu versionhallintajärjestelmä, joka on suunniteltu seuraamaan muutoksia lähdekoodissa
+        ohjelmistokehityksen aikana. Tässä on joitakin keskeisiä Git-komentoja ja niiden esimerkkejä.</p>
+
+    <h2>Git Repositorion Luominen</h2>
+    <p>Uuden Git-repositorion luominen:</p>
+    <pre><code>git init</code></pre>
+
+    <h2>Repositorion Kloonaaminen</h2>
+    <p>Olemassa olevan repositorion kloonaaminen:</p>
+    <pre><code>git clone &lt;repository_url&gt;</code></pre>
+
+    <h2>Muutosten Seuraaminen</h2>
+    <p>Tiedostojen lisääminen seurantaan:</p>
+    <pre><code>git add &lt;tiedosto&gt;</code></pre>
+    <p>Kaikkien tiedostojen lisääminen seurantaan:</p>
+    <pre><code>git add .</code></pre>
+
+    <h2>Muutosten Sitominen</h2>
+    <p>Muutosten sitominen (commit):</p>
+    <pre><code>git commit -m "Viesti muutoksista"</code></pre>
+
+    <h2>Muutosten Työntäminen</h2>
+    <p>Muutosten työntäminen etärepositorioon:</p>
+    <pre><code>git push origin &lt;branch_name&gt;</code></pre>
+
+    <h2>Muutosten Hakeminen</h2>
+    <p>Muutosten hakeminen etärepositoriosta:</p>
+    <pre><code>git pull origin &lt;branch_name&gt;</code></pre>
+
+    <h2>Haara (Branch)</h2>
+    <p>Uuden haaran luominen:</p>
+    <pre><code>git branch &lt;branch_name&gt;</code></pre>
+    <p>Haaran vaihtaminen:</p>
+    <pre><code>git checkout &lt;branch_name&gt;</code></pre>
+
+    <h2>Haara Merging</h2>
+    <p>Haaran yhdistäminen nykyiseen haaraan:</p>
+    <pre><code>git merge &lt;branch_name&gt;</code></pre>
+
+    <h2>Git Status</h2>
+    <p>Repositorion tilan tarkistaminen:</p>
+    <pre><code>git status</code></pre>
+
+    <h2>Git Log</h2>
+    <p>Commit-historian tarkistaminen:</p>
+    <pre><code>git log</code></pre>
+</body>
+
+</html>
+
+</html>
